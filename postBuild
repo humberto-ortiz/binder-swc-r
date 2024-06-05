@@ -1,0 +1,9 @@
+set -ex
+
+wget -c https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+unzip shell-lesson-data.zip
+
+mkdir data
+cd data
+wget https://swcarpentry.github.io/r-novice-gapminder/data/gapminder_data.csv
+wget https://swcarpentry.github.io/r-novice-gapminder/data/gapminder_wide.csv
